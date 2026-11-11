@@ -1,0 +1,4 @@
+[
+  {"question": "What is a vector embedding?", "expected_keyword": "embedding"},
+  {"question": "Define overfitting", "expected_keyword": "overfitting"}
+]
