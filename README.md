@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Studybud AI
 
 ### A study assistant with a library of subjects and chapters, using Retrieval-Augmented Generation (RAG), agent-style service roles and task-based LLM selection
