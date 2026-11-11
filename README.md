@@ -125,7 +125,7 @@ Studybud-AI/
 ├── app.py
 ├── config.py
 ├── requirements.txt
-├── .env.example
+├── .env
 └── README.md
 ```
 
@@ -145,7 +145,7 @@ pip install --upgrade pip
 pip install torch --index-url https://download.pytorch.org/whl/cpu   # small CPU build
 pip install -r requirements.txt
 
-cp .env.example .env     # Windows: copy .env.example .env   then add your key(s)
+
 streamlit run app.py
 ```
 
@@ -177,7 +177,6 @@ Your library is saved in `data/`. Back up that folder to keep it. Deleting `data
 The library is stored on the local disk, so the app is meant to run on your own computer. On Streamlit Community Cloud the disk is not permanent and a restart or redeploy erases the library, and every visitor would share one library. For a shared online version, use a hosted database and add logins.
 
 **Source Code:** https://github.com/sawsenbffarhat/Studybud-AI.git
-
 ## Screenshots
 
 Add your screenshots to `assets/screenshots/`.
@@ -212,7 +211,7 @@ It prints the hit rate @ 1, 3 and 6 (the PDF is added to a temporary subject and
 - Summaries of many chapters condense each chapter first, so fine details can be lost; at most 8 documents per summary.
 - Free API tiers are rate-limited; the app falls back to the other provider when it can.
 - Single-user, local library: no accounts, and the library does not persist on free cloud hosting.
-- Sinhala output quality depends on the chosen model.
+
 
 ## Future Improvements
 
@@ -222,10 +221,7 @@ It prints the hit rate @ 1, 3 and 6 (the PDF is added to a temporary subject and
 - Flashcards and study plans
 - Agents that plan and pick tools autonomously (e.g. LangGraph)
 
-## Author
 
-**Roshini Nawanjala** - Undergraduate, Faculty of Information Technology, Horizon Campus, Sri Lanka
-GitHub: https://github.com/roshini-nawanjala
 
 ## License
 
@@ -235,5 +231,4 @@ Developed for academic and educational purposes as part of a university assignme
 
 Streamlit, LangChain, ChromaDB, Sentence Transformers, PyMuPDF, SQLite, Groq, OpenRouter, python-dotenv.
 =======
-# Studybud-AI
->>>>>>> 67c22123ca571b4ec91fd307b76f6e8ceb621eb3
+
